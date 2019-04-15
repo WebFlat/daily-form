@@ -442,7 +442,6 @@ body {
     border-radius: 5px;
     cursor: pointer;
     opacity: .7;
-    line-height: 1;
     max-height: 70px;
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
