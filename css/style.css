@@ -322,7 +322,8 @@ body {
   line-height: 1.4;
   color: #7a7b7f;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #181818; }
+  background-color: #181818;
+  position: relative; }
 
 .container {
   width: 900px;
