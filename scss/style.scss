@@ -36,10 +36,9 @@ body{
 	position: relative;
 }
 .container {
-	min-width: 760px;
-	margin: 0 auto;
+	min-width: 800px;
 	background: linear-gradient(to right, #ff512f 0%, #fb4b38 50%, #f03c50 100%);
-	padding: 40px 140px;
+	padding: 40px 160px;
 	position: absolute;
   	top: 50%;
   	left: 50%;
@@ -50,7 +49,7 @@ body{
 	background-color: #fff;
 	padding: 30px;
 	font-weight: bold;
-	min-width: 80%;
+	min-width: 100%;
 	&__title {
 		margin: 0;
 		font-size: 3rem;
@@ -69,7 +68,7 @@ body{
 	}
 	&__wrapper-input {
 		display: flex;
-		flex-wrap: wrap;
+		flex-wrap: nowrap;
 		&--xl {
 			flex-direction: column;
 		}

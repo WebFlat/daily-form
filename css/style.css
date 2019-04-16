@@ -326,12 +326,11 @@ body {
   position: relative; }
 
 .container {
-  min-width: 760px;
-  margin: 0 auto;
+  min-width: 800px;
   background: -webkit-gradient(linear, left top, right top, from(#ff512f), color-stop(50%, #fb4b38), to(#f03c50));
   background: -o-linear-gradient(left, #ff512f 0%, #fb4b38 50%, #f03c50 100%);
   background: linear-gradient(to right, #ff512f 0%, #fb4b38 50%, #f03c50 100%);
-  padding: 40px 140px;
+  padding: 40px 160px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -344,7 +343,7 @@ body {
   background-color: #fff;
   padding: 30px;
   font-weight: bold;
-  min-width: 80%; }
+  min-width: 100%; }
   .form__title {
     margin: 0;
     font-size: 3rem;
@@ -364,8 +363,8 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap; }
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap; }
     .form__wrapper-input--xl {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
