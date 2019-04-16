@@ -377,9 +377,9 @@ body {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    -webkit-transition: all .3s ease-in;
-    -o-transition: all .3s ease-in;
-    transition: all .3s ease-in; }
+    -webkit-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in; }
     .form__input:hover {
       border: 2px solid #7a7b7f; }
     .form__input::-webkit-input-placeholder {
@@ -443,9 +443,9 @@ body {
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     overflow: hidden;
-    -webkit-transition: all .3s ease-in;
-    -o-transition: all .3s ease-in;
-    transition: all .3s ease-in; }
+    -webkit-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in; }
     .form__btn:hover, .form__btn:focus, .form__btnactive {
       opacity: 1;
       border-bottom: 4px solid #bd1962; }
@@ -454,8 +454,12 @@ body {
     cursor: pointer;
     text-decoration: none;
     font-weight: bold;
-    -webkit-transition: all .3s ease-in;
-    -o-transition: all .3s ease-in;
-    transition: all .3s ease-in; }
+    -webkit-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in; }
     .form__link:hover, .form__link:focus, .form__linkactive {
       background-color: #ccc; }
+
+@media screen and (max-width: 1035px) {
+  .form__input--left {
+    margin-right: 0; } }

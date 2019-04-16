@@ -8,7 +8,7 @@ $input-bg: #f0f0f0;
 
 
 @mixin tr {
-	transition: all .3s ease-in;
+	transition: all .2s ease-in;
 }
 
 
@@ -140,6 +140,11 @@ body{
 		&active {
 			background-color: #ccc;
 		}
+	}
+}
+@media screen and (max-width: 1035px) {
+	.form__input--left {
+		margin-right: 0;
 	}
 }
 
